@@ -44,6 +44,20 @@
   </style>
 </head>
 <body>
+  <script type="text/javascript">
+    // Async Google Analytics
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-306556-1']);
+    _gaq.push(['_setDomainName', '.arko.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+  </script>
+
   <img src="andre.png" alt="Andre Arko" class="andre">
 
   <div class="main">
@@ -72,16 +86,5 @@
     </p>
 
   </div>
-
-  <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-    try {
-      var pageTracker = _gat._getTracker("UA-306556-1");
-      pageTracker._trackPageview();
-    } catch(err) {}
-  </script>
 </body>
 </html>
