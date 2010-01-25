@@ -5,6 +5,6 @@ class Deploy < Thor::Group
     $stdout.sync = true
     system("git push")
     # everything squeezed into one call so it only sshes once
-    system("ssh arko 'cd /home/arko.net/web && git clean -f && git pull'")
+    system("ssh arko 'cd /home/arko.net/web && git pull'")
   end
 end
