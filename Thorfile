@@ -1,10 +1,8 @@
 class Deploy < Thor::Group
-  desc "Updates the repo at arko.net with the lastest changes"
+  desc "Pushes the latest files to arko.net"
 
   def run_deploy
     $stdout.sync = true
-    system("git push")
-    # everything squeezed into one call so it only sshes once
-    system("ssh arko 'cd /home/arko.net/web && git pull'")
+    system("rsync -avz -essh public/ arko:/home/arko.net/web/public/")
   end
 end
