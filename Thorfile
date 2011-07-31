@@ -3,6 +3,7 @@ class Deploy < Thor::Group
 
   def run_deploy
     $stdout.sync = true
+	system("git push")
     system("rsync -avz -essh public/ arko:/home/arko.net/web/public/")
   end
 end
