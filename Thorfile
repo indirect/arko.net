@@ -3,7 +3,9 @@ class Deploy < Thor::Group
 
   def run_deploy
     $stdout.sync = true
-	system("git push")
-    system("rsync -avz -essh public/ arko:/home/arko.net/web/public/")
+    system("git push")
+    from = "public/"
+    to = "arko:/home/arko.net/web/public/"
+    system("rsync -avz -essh --exclude '.DS_Store' #{from} #{to}")
   end
 end
