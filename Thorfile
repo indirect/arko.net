@@ -1,7 +1,6 @@
-class Deploy < Thor::Group
-  desc "Pushes the latest files to arko.net"
-
-  def run_deploy
+class Default < Thor
+  desc "deploy", "Pushes the latest files to arko.net"
+  def deploy
     $stdout.sync = true
     system("git push")
     opts = "-avz -essh"
