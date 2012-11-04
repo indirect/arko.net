@@ -8,6 +8,8 @@ class Default < Thor
     opts << " --delete-after"
     source = "public/"
     target = "arko:/home/arko.net/web/public/"
-    system("rsync #{opts} #{source} #{target}")
+    cmd = "rsync #{opts} #{source} #{target}"
+    puts cmd
+    system cmd
   end
 end
