@@ -4,7 +4,7 @@ class Default < Thor
     $stdout.sync = true
     system("git push")
     opts = "-avz -essh"
-    opts << " --exclude '.DS_Store'"
+    opts << " --exclude-from=.gitignore"
     opts << " --delete-after"
     source = "public/"
     target = "arko:/home/arko.net/web/public/"
