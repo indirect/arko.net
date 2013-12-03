@@ -1,10 +1,10 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.com/
   specs:
-    thor (0.16.0)
+    rake (10.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  thor
+  rake

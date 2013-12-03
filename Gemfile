@@ -1,2 +1,3 @@
-source :rubygems
-gem 'thor'
+source 'https://rubygems.com'
+
+gem 'rake'
