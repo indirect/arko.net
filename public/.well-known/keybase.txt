@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/indirect
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://arko.net
+  * I am indirect (https://keybase.io/indirect) on keybase.
+  * I have a public key with fingerprint 53B5 BDD2 6623 41EB 2932  B002 509A E6D4 A089 D900
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "53b5bdd2662341eb2932b002509ae6d4a089d900",
+            "host": "keybase.io",
+            "key_id": "509ae6d4a089d900",
+            "uid": "7b4c0a9c5676164a207fa1272ffdc500",
+            "username": "indirect"
+        },
+        "service": {
+            "hostname": "arko.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1407959459,
+    "expire_in": 157680000,
+    "prev": "2ac45363a4289ca58cf45faed26c7aaa6c6ba623967d8390beea8962724d8a68",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owGbwMvMwMQYMOvZlQWdNxkYTx94l8QQ/PrgymqlpPyUSiWraqXsVDCVlpmXnlpU
+UJSZV6JkpWRqnGSalJJiZGZmZGximJpkZGlslGRgYGRqYJmYapZikmhgYZliaWCg
+pKOUkV8M0gE0JimxOFUvMx8oBuTEZ6aAzMFUXwqWME8ySTZItEw2NTM3MzQzSTQy
+ME9LNDQyN0pLS0k2hSgsTi3KS8xNBarOzEvJLEpNLlGq1VECipZlJqeC3AyyGqoi
+sSg7Xy8vtQSor6AovyQ/OT8HKJpRUlJgBdJUUlkAUlWemhQP1R+fBDI0Lx2ooSy1
+qDgzP0/JyhCoMrkkE2SgoYmBuaWppYmppY5SakUB0Pb4TJAKU3MzCwMgAFmTWgY0
+0igx2cTU2Mw40cTIwjI50dQiOc3ENC0xFRh2yeaJiYlmyWZJicBQtDQzT7EwtjRI
+Sk1NtLA0A/rUJMUi0cxCCeSjwrx8JStjoDMT04FGFmem5yWWlBalKtVydTKJMrOC
+Ywweh0yK4fz/U0ydb51gVmrrsN+7+t3NVflrtuu85rH/Jb/AZ8cRX7lcsfeKy3ad
+kshjzr5ZM6+s7vfck7wOk05W3WCIb9beVTqdvVD+ntH9na4Lf+oqfNYosDgzRTcq
+xPFUuZ+WXnHcg8rPU2ZPYmxhEQqe2Klq9H/rjbfTbKs7Vqxue7ycu4z/bkuyfP91
+sYRgo7I3npmrJl/++3XJD4nnx7ofnZ3j8LpvdmJ/w7HDauXuinfC5nb/OC3yl+fP
+TiPRWws2nd3xefbyI/d5dv/ecr5aoNPB6pnKxJTnC4Tramc5XdNxTmqbxrvPfIHZ
+rWWH+azeyie4/lHQCDTTdu5ml7cwL446n9zAX9aY0c+Q+4VXdl5T5L+Lj8J+Sm35
+ljzhRHaL16T6G4zZxS/+34hhrjuXYbCiI/PtzIp699f8fdcq702w/vY4fo/mr0Pb
++FokjLYrR9RNlD7TuEb4mJXrGY6bobahbulm4ZUXNzrNcymJEA1c3/lF/PyzmQ01
+xns++Qm3fzl/pHzJ73Nfn3Af2J8+6fK3rv8xex9OuX57T7ylk9+8Yv3z8acNZp13
+ZNzftmJq4KygexZcprznK1u2Po3R9vM5Z2qepbDnsffUJ6v+ZGamr/CseDf/o7Hk
+GVPVk5V8P9nTXs1fnyGwSK9u176VDB9f3Dm++Hfxt2/dbsd+TzuWF3XlRaf902s7
+TY/Uul87/vbq6Us3Txl9rGj3m/nYqwkA
+=SmuT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/indirect
+
+==================================================================
