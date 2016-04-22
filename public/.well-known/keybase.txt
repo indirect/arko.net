@@ -1,4 +1,3 @@
-==================================================================
 https://keybase.io/indirect
 --------------------------------------------------------------------
 
@@ -6,16 +5,16 @@ I hereby claim:
 
   * I am an admin of http://arko.net
   * I am indirect (https://keybase.io/indirect) on keybase.
-  * I have a public key with fingerprint 53B5 BDD2 6623 41EB 2932  B002 509A E6D4 A089 D900
+  * I have a public key ASC98bkADWP08Ac1-bqQE3wfG_LS1pN7dZmFktOaE6a6zAo
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "53b5bdd2662341eb2932b002509ae6d4a089d900",
+            "eldest_kid": "0101017e0718234a78036afcb60e28faabfc6e475b304cdc468f6430669d1cb7b6e90a",
             "host": "keybase.io",
-            "key_id": "509ae6d4a089d900",
+            "kid": "0120bdf1b9000d63f4f00735f9ba90137c1f1bf2d2d6937b75998592d39a13a6bacc0a",
             "uid": "7b4c0a9c5676164a207fa1272ffdc500",
             "username": "indirect"
         },
@@ -26,44 +25,27 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1407959459,
-    "expire_in": 157680000,
-    "prev": "2ac45363a4289ca58cf45faed26c7aaa6c6ba623967d8390beea8962724d8a68",
-    "seqno": 3,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1461308476,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1461308325,
+        "hash": "42bdffc15ba874b99c5e5089dbb816a2e1033ee9d76426558ae731c1b96f308b13f7fc54a9ffe117ffb17d61f9689f91f79938b18618d4232f270e8d6a41a6eb",
+        "seqno": 448920
+    },
+    "prev": "526a098dac0f0374426c714cb09cb9e900df1238108cdcaee1ac74cd0b3db02d",
+    "seqno": 21,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
-
-owGbwMvMwMQYMOvZlQWdNxkYTx94l8QQ/PrgymqlpPyUSiWraqXsVDCVlpmXnlpU
-UJSZV6JkpWRqnGSalJJiZGZmZGximJpkZGlslGRgYGRqYJmYapZikmhgYZliaWCg
-pKOUkV8M0gE0JimxOFUvMx8oBuTEZ6aAzMFUXwqWME8ySTZItEw2NTM3MzQzSTQy
-ME9LNDQyN0pLS0k2hSgsTi3KS8xNBarOzEvJLEpNLlGq1VECipZlJqeC3AyyGqoi
-sSg7Xy8vtQSor6AovyQ/OT8HKJpRUlJgBdJUUlkAUlWemhQP1R+fBDI0Lx2ooSy1
-qDgzP0/JyhCoMrkkE2SgoYmBuaWppYmppY5SakUB0Pb4TJAKU3MzCwMgAFmTWgY0
-0igx2cTU2Mw40cTIwjI50dQiOc3ENC0xFRh2yeaJiYlmyWZJicBQtDQzT7EwtjRI
-Sk1NtLA0A/rUJMUi0cxCCeSjwrx8JStjoDMT04FGFmem5yWWlBalKtVydTKJMrOC
-Ywweh0yK4fz/U0ydb51gVmrrsN+7+t3NVflrtuu85rH/Jb/AZ8cRX7lcsfeKy3ad
-kshjzr5ZM6+s7vfck7wOk05W3WCIb9beVTqdvVD+ntH9na4Lf+oqfNYosDgzRTcq
-xPFUuZ+WXnHcg8rPU2ZPYmxhEQqe2Klq9H/rjbfTbKs7Vqxue7ycu4z/bkuyfP91
-sYRgo7I3npmrJl/++3XJD4nnx7ofnZ3j8LpvdmJ/w7HDauXuinfC5nb/OC3yl+fP
-TiPRWws2nd3xefbyI/d5dv/ecr5aoNPB6pnKxJTnC4Tramc5XdNxTmqbxrvPfIHZ
-rWWH+azeyie4/lHQCDTTdu5ml7cwL446n9zAX9aY0c+Q+4VXdl5T5L+Lj8J+Sm35
-ljzhRHaL16T6G4zZxS/+34hhrjuXYbCiI/PtzIp699f8fdcq702w/vY4fo/mr0Pb
-+FokjLYrR9RNlD7TuEb4mJXrGY6bobahbulm4ZUXNzrNcymJEA1c3/lF/PyzmQ01
-xns++Qm3fzl/pHzJ73Nfn3Af2J8+6fK3rv8xex9OuX57T7ylk9+8Yv3z8acNZp13
-ZNzftmJq4KygexZcprznK1u2Po3R9vM5Z2qepbDnsffUJ6v+ZGamr/CseDf/o7Hk
-GVPVk5V8P9nTXs1fnyGwSK9u176VDB9f3Dm++Hfxt2/dbsd+TzuWF3XlRaf902s7
-TY/Uul87/vbq6Us3Txl9rGj3m/nYqwkA
-=SmuT
------END PGP MESSAGE-----
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvfG5AA1j9PAHNfm6kBN8Hxvy0taTe3WZhZLTmhOmuswKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDE3ZTA3MTgyMzRhNzgwMzZhZmNiNjBlMjhmYWFiZmM2ZTQ3NWIzMDRjZGM0NjhmNjQzMDY2OWQxY2I3YjZlOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmRmMWI5MDAwZDYzZjRmMDA3MzVmOWJhOTAxMzdjMWYxYmYyZDJkNjkzN2I3NTk5ODU5MmQzOWExM2E2YmFjYzBhIiwidWlkIjoiN2I0YzBhOWM1Njc2MTY0YTIwN2ZhMTI3MmZmZGM1MDAiLCJ1c2VybmFtZSI6ImluZGlyZWN0In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhcmtvLm5ldCIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTQifSwiY3RpbWUiOjE0NjEzMDg0NzYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MTMwODMyNSwiaGFzaCI6IjQyYmRmZmMxNWJhODc0Yjk5YzVlNTA4OWRiYjgxNmEyZTEwMzNlZTlkNzY0MjY1NThhZTczMWMxYjk2ZjMwOGIxM2Y3ZmM1NGE5ZmZlMTE3ZmZiMTdkNjFmOTY4OWY5MWY3OTkzOGIxODYxOGQ0MjMyZjI3MGU4ZDZhNDFhNmViIiwic2Vxbm8iOjQ0ODkyMH0sInByZXYiOiI1MjZhMDk4ZGFjMGYwMzc0NDI2YzcxNGNiMDljYjllOTAwZGYxMjM4MTA4Y2RjYWVlMWFjNzRjZDBiM2RiMDJkIiwic2Vxbm8iOjIxLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLR4PekVqcqvHnA1d0EOemW3KDfQbZ8LCMA1JFCNKcf2ziuAF2Hy11QSizgoa8/OL9M1abWTmgQaK+jw2xtkbAWoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/indirect
-
-==================================================================
