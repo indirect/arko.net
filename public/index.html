@@ -29,6 +29,19 @@
     a:hover, a:visited:hover { border: none; }
     a:visited { border-color: #AAA; }
 
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: black;
+        color: #DDD;
+      }
+
+      a {
+        color: #DDD;
+        border-color: #DDD;
+      }
+      a:visited { border-color: #AAA; }
+    }
+
     img.andre {
       float: left;
       margin: 0 1em 3em 0;
