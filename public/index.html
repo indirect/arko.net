@@ -19,9 +19,11 @@
       font-weight: 400;
       font-size: 14pt;
       line-height: 1.4em;
-      margin: 0 auto;
-      padding: 2em 0 2em 2em;
-      max-width: 580px;
+      margin: 1.5em auto;
+      padding: 1em;
+      display: flex;
+      gap: 0 3em;
+      justify-content: center;
     }
 
     h1 {
@@ -51,27 +53,35 @@
       }
     }
 
-    img.andre {
-      float: left;
-      margin: 0 1em 3em 0;
-    }
+    @media (max-width: 585px) {
+      body {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16pt;
+        margin: 0;
+        padding: 0 10px;
+      }
 
-    div.main {
-      float: left;
-      padding-left: 3em;
-    }
+      .main {
+        margin-top: 0;
+      }
 
-    p {
-      margin-top: 0;
+      .greeting img {
+        height: 170px;
+        object-fit: cover;
+        object-position: 0 17%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1 class="hello">
-    Hi, I'm <a href="mailto:andre@arko.net" class="name">André Arko</a>.
-  </h1>
+  <div class="greeting">
+    <h1 class="hello">
+      Hi, I'm <a href="mailto:andre@arko.net" class="name">André Arko</a>.
+    </h1>
 
-  <img src="andre.jpg" alt="André Arko" class="andre" width="300" height="450">
+    <img src="andre.jpg" alt="André Arko" class="andre" width="300" height="450">
+  </div>
 
   <div class="main">
     <p>
@@ -108,7 +118,6 @@
       <a rel="me" href="https://indirect.io">tumblr</a>, and
       <a rel="me" href="https://linkedin.com/in/andrearko">linkedin</a>.
     </p>
-
   </div>
 
   <script src="https://use.typekit.net/qhr5xpd.js"></script>
